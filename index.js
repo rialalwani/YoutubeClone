@@ -14,7 +14,7 @@ import http from "http"
 import initializeSocket from "./socket.js";
 import auth from "./Middleware/auth.js";
 import msgRoutes from "./Routes/Message.js"
-import livekitRoutes from "./Routes/livekitRoutes.js";
+import livekitRoutes from "./Routes/liveKitRoutes.js";
 
 dotenv.config()
 
